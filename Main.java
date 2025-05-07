@@ -1,32 +1,8 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-import javax.swing.plaf.synth.SynthRadioButtonMenuItemUI;
+import java.
 
 
-public class Product {
-    private String ProductID;
-    private String ProductName;
-    private double Price;
-    
-    //constructor
-    public Product(String productID, String productName, double price) {
-        this.ProductID = productID;
-        this.ProductName = productName;
-        this.Price = price;
-    }
-
-    public String GetProductID() {
-        return ProductID;
-    }
-
-    public String GetProductName() {
-        return ProductName;
-    }
-
-    public double GetPrice() {
-        return Price;
-    }
-}
 
 class ShoppingCart {
     private ArrayList<Product> items = new ArrayList<>();
